@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: rmpeers
-        image: hub.docker.tech.lastmile.com/mikebryant/rmpeers:v6
+        image: danielmarks/weave-net-rmpeers:latest
         resources:
           requests:
             cpu: "0.01"
