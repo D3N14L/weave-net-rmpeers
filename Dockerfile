@@ -6,4 +6,6 @@ RUN curl -o /usr/local/bin/kubectl https://storage.googleapis.com/kubernetes-rel
 
 COPY rmpeers /
 
+RUN chmod +x /rmpeers
+
 CMD ["/rmpeers"]
